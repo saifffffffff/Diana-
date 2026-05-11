@@ -29,7 +29,7 @@ public partial class LobbyView : Window, ILobbyView
     public string Username => UsernameBox.Text;
     public string RoomKey => RoomKeyBox.Text;
 
-    public string ImageBase64 => "saif";//UserAvatar.ImageSource.ToString();
+    public string ImageBase64 => "not implemented yet";
 
     public event Action OnJoinRoomPressed;
     public event Action OnCreateRoomPressed;
@@ -55,7 +55,6 @@ public partial class LobbyView : Window, ILobbyView
     // called from the presenter which is not on the UI thread, so we need to use Dispatcher to show the message box on the UI thread
     public void ShowError(string message)
     {
-            
         Dispatcher.Invoke(() => {
             MessageBox.Show(message);
         });
@@ -66,7 +65,7 @@ public partial class LobbyView : Window, ILobbyView
         // Ensure UI work runs on the UI thread
         Dispatcher.Invoke(() =>
         {
-            var window = new CreateRoomView();
+            var window = new CreateRoomView(this.Username);
             var presenter = new CreateRoomPresenter(window, chatService);
             window.Owner = this;
             window.ShowDialog();
@@ -75,6 +74,7 @@ public partial class LobbyView : Window, ILobbyView
 
     public void NavigateToChatRoom(string roomName, string roomKey, string username, string Owner, IChatService chatService)
     {
+        
         // Creating and showing a Window must happen on the UI thread.
         Dispatcher.Invoke(() =>
         {

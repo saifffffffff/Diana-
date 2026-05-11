@@ -1,7 +1,32 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\development\\src\\Diana\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{391452E7-AACB-23E0-8F92-AE59C012754F}|Diana.WPF.View\\Diana.WPF.View.csproj|c:\\development\\src\\diana\\diana.wpf.view\\views\\chatroomview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{391452E7-AACB-23E0-8F92-AE59C012754F}|Diana.WPF.View\\Diana.WPF.View.csproj|solutionrelative:diana.wpf.view\\views\\chatroomview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{391452E7-AACB-23E0-8F92-AE59C012754F}|Diana.WPF.View\\Diana.WPF.View.csproj|c:\\development\\src\\diana\\diana.wpf.view\\views\\chatroomview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{391452E7-AACB-23E0-8F92-AE59C012754F}|Diana.WPF.View\\Diana.WPF.View.csproj|solutionrelative:diana.wpf.view\\views\\chatroomview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{391452E7-AACB-23E0-8F92-AE59C012754F}|Diana.WPF.View\\Diana.WPF.View.csproj|c:\\development\\src\\diana\\diana.wpf.view\\views\\lobbyview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{391452E7-AACB-23E0-8F92-AE59C012754F}|Diana.WPF.View\\Diana.WPF.View.csproj|solutionrelative:diana.wpf.view\\views\\lobbyview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{391452E7-AACB-23E0-8F92-AE59C012754F}|Diana.WPF.View\\Diana.WPF.View.csproj|c:\\development\\src\\diana\\diana.wpf.view\\controls\\friendmessagecontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{391452E7-AACB-23E0-8F92-AE59C012754F}|Diana.WPF.View\\Diana.WPF.View.csproj|solutionrelative:diana.wpf.view\\controls\\friendmessagecontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{391452E7-AACB-23E0-8F92-AE59C012754F}|Diana.WPF.View\\Diana.WPF.View.csproj|c:\\development\\src\\diana\\diana.wpf.view\\controls\\friendmessagecontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{391452E7-AACB-23E0-8F92-AE59C012754F}|Diana.WPF.View\\Diana.WPF.View.csproj|solutionrelative:diana.wpf.view\\controls\\friendmessagecontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{391452E7-AACB-23E0-8F92-AE59C012754F}|Diana.WPF.View\\Diana.WPF.View.csproj|c:\\development\\src\\diana\\diana.wpf.view\\views\\createroomview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{391452E7-AACB-23E0-8F92-AE59C012754F}|Diana.WPF.View\\Diana.WPF.View.csproj|solutionrelative:diana.wpf.view\\views\\createroomview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +47,82 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChatRoomView.xaml.cs",
+              "DocumentMoniker": "C:\\development\\src\\Diana\\Diana.WPF.View\\Views\\ChatRoomView.xaml.cs",
+              "RelativeDocumentMoniker": "Diana.WPF.View\\Views\\ChatRoomView.xaml.cs",
+              "ToolTip": "C:\\development\\src\\Diana\\Diana.WPF.View\\Views\\ChatRoomView.xaml.cs",
+              "RelativeToolTip": "Diana.WPF.View\\Views\\ChatRoomView.xaml.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T19:26:26.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LobbyView.xaml.cs",
+              "DocumentMoniker": "C:\\development\\src\\Diana\\Diana.WPF.View\\Views\\LobbyView.xaml.cs",
+              "RelativeDocumentMoniker": "Diana.WPF.View\\Views\\LobbyView.xaml.cs",
+              "ToolTip": "C:\\development\\src\\Diana\\Diana.WPF.View\\Views\\LobbyView.xaml.cs",
+              "RelativeToolTip": "Diana.WPF.View\\Views\\LobbyView.xaml.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAD4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T19:16:53.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChatRoomView.xaml",
+              "DocumentMoniker": "C:\\development\\src\\Diana\\Diana.WPF.View\\Views\\ChatRoomView.xaml",
+              "RelativeDocumentMoniker": "Diana.WPF.View\\Views\\ChatRoomView.xaml",
+              "ToolTip": "C:\\development\\src\\Diana\\Diana.WPF.View\\Views\\ChatRoomView.xaml",
+              "RelativeToolTip": "Diana.WPF.View\\Views\\ChatRoomView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-11T19:07:44.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateRoomView.xaml.cs",
+              "DocumentMoniker": "C:\\development\\src\\Diana\\Diana.WPF.View\\Views\\CreateRoomView.xaml.cs",
+              "RelativeDocumentMoniker": "Diana.WPF.View\\Views\\CreateRoomView.xaml.cs",
+              "ToolTip": "C:\\development\\src\\Diana\\Diana.WPF.View\\Views\\CreateRoomView.xaml.cs",
+              "RelativeToolTip": "Diana.WPF.View\\Views\\CreateRoomView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T19:16:46.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FriendMessageControl.xaml.cs",
+              "DocumentMoniker": "C:\\development\\src\\Diana\\Diana.WPF.View\\Controls\\FriendMessageControl.xaml.cs",
+              "RelativeDocumentMoniker": "Diana.WPF.View\\Controls\\FriendMessageControl.xaml.cs",
+              "ToolTip": "C:\\development\\src\\Diana\\Diana.WPF.View\\Controls\\FriendMessageControl.xaml.cs",
+              "RelativeToolTip": "Diana.WPF.View\\Controls\\FriendMessageControl.xaml.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T19:15:43.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FriendMessageControl.xaml",
+              "DocumentMoniker": "C:\\development\\src\\Diana\\Diana.WPF.View\\Controls\\FriendMessageControl.xaml",
+              "RelativeDocumentMoniker": "Diana.WPF.View\\Controls\\FriendMessageControl.xaml",
+              "ToolTip": "C:\\development\\src\\Diana\\Diana.WPF.View\\Controls\\FriendMessageControl.xaml",
+              "RelativeToolTip": "Diana.WPF.View\\Controls\\FriendMessageControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-11T19:12:03.999Z",
+              "EditorCaption": ""
             }
           ]
         }

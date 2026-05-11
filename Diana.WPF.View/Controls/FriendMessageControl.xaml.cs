@@ -72,6 +72,7 @@ namespace Diana.WPF.View.Controls
         /// <summary>Updates the displayed username.</summary>
         public void SetUsername(string username)
         {
+            MessageBox.Show(username);
             UsernameText.Text = username ?? string.Empty;
             // refresh initials if we're in fallback mode
             if (AvatarImage.Visibility != Visibility.Visible)

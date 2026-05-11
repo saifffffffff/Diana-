@@ -7,20 +7,6 @@ namespace Diana.WPF.View.Views;
 
 public partial class ChatRoomView : Window, IChatRoomView
 {
-    // Parameterless constructor required for XAML loader
-    public ChatRoomView()
-    {
-        InitializeComponent();
-        // initialize defaults to avoid null refs when used before parameterized ctor
-        Username = string.Empty;
-        RoomKey = string.Empty;
-        RoomName = string.Empty;
-        RoomOwner = string.Empty;
-        ImageBase64 = string.Empty;
-
-        SendButton.Click += (s, e) => OnSendPressed?.Invoke();
-        LeaveButton.Click += (s, e) => OnLeavePressed?.Invoke();
-    }
 
     public ChatRoomView(string username, string roomKey, string roomName, string ownerUsername, string imageBase64)
     {
@@ -59,7 +45,7 @@ public partial class ChatRoomView : Window, IChatRoomView
     public string RoomOwner
     {
         get => ExecuteOnUi(() => RoomOwnerText.Text);
-        set => ExecuteOnUi(() => RoomOwnerText.Text = value ?? string.Empty);
+        set => ExecuteOnUi(() => RoomOwnerText.Text = "Owner: " + value ?? string.Empty);
     }
 
     public string MessageContent
