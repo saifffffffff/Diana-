@@ -126,7 +126,7 @@
                         <TextBlock Text="🔒"
                        FontSize="14"
                        VerticalAlignment="Center"
-                       Margin="0,0,6,0"/>
+                       Margin="0,0,6,0" Foreground="#E2E8F0"/>
 
                         <TextBlock Text="Room Key"
                        Foreground="#E2E8F0"

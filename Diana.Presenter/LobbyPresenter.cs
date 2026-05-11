@@ -34,6 +34,12 @@ public class LobbyPresenter
     private async Task OnCreateRoomPressed()
     {
 
+        if (string.IsNullOrWhiteSpace(_view.Username))
+        {
+            _view.ShowError("Please enter a username.");
+            return;
+        }
+    
         _view.OpenCreateRoomView(_view.Username, _chatService);
         
         await LoadRoomList();

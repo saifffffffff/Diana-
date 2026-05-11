@@ -15,9 +15,15 @@
         </Ellipse>
 
         <!-- Plus icon overlay when no image is set -->
-        <TextBlock x:Name="PlusIcon" Text="+" FontSize="52" Foreground="#A78BFA" 
-                   HorizontalAlignment="Center" VerticalAlignment="Center" 
-                   FontWeight="Bold"
-                   Margin="0,2,0,0"/>
+        <TextBlock x:Name="PlusIcon"
+           Text="+"
+           FontSize="40"
+           Foreground="#A78BFA"
+           FontWeight="Bold"
+           HorizontalAlignment="Center"
+           VerticalAlignment="Center"
+           TextAlignment="Center"
+           Padding="0"
+           Margin="0,-6,0,0"/>
     </Grid>
 </UserControl>
