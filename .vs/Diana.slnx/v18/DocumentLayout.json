@@ -1,7 +1,86 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\development\\src\\Diana\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{391452E7-AACB-23E0-8F92-AE59C012754F}|Diana.WPF.View\\Diana.WPF.View.csproj|c:\\development\\src\\diana\\diana.wpf.view\\controls\\friendmessagecontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{391452E7-AACB-23E0-8F92-AE59C012754F}|Diana.WPF.View\\Diana.WPF.View.csproj|solutionrelative:diana.wpf.view\\controls\\friendmessagecontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{391452E7-AACB-23E0-8F92-AE59C012754F}|Diana.WPF.View\\Diana.WPF.View.csproj|c:\\development\\src\\diana\\diana.wpf.view\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{391452E7-AACB-23E0-8F92-AE59C012754F}|Diana.WPF.View\\Diana.WPF.View.csproj|solutionrelative:diana.wpf.view\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{391452E7-AACB-23E0-8F92-AE59C012754F}|Diana.WPF.View\\Diana.WPF.View.csproj|c:\\development\\src\\diana\\diana.wpf.view\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{391452E7-AACB-23E0-8F92-AE59C012754F}|Diana.WPF.View\\Diana.WPF.View.csproj|solutionrelative:diana.wpf.view\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{391452E7-AACB-23E0-8F92-AE59C012754F}|Diana.WPF.View\\Diana.WPF.View.csproj|c:\\development\\src\\diana\\diana.wpf.view\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{391452E7-AACB-23E0-8F92-AE59C012754F}|Diana.WPF.View\\Diana.WPF.View.csproj|solutionrelative:diana.wpf.view\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{391452E7-AACB-23E0-8F92-AE59C012754F}|Diana.WPF.View\\Diana.WPF.View.csproj|c:\\development\\src\\diana\\diana.wpf.view\\views\\lobbyview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{391452E7-AACB-23E0-8F92-AE59C012754F}|Diana.WPF.View\\Diana.WPF.View.csproj|solutionrelative:diana.wpf.view\\views\\lobbyview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{391452E7-AACB-23E0-8F92-AE59C012754F}|Diana.WPF.View\\Diana.WPF.View.csproj|c:\\development\\src\\diana\\diana.wpf.view\\views\\chatroomview.xaml.bak||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{391452E7-AACB-23E0-8F92-AE59C012754F}|Diana.WPF.View\\Diana.WPF.View.csproj|solutionrelative:diana.wpf.view\\views\\chatroomview.xaml.bak||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tareq\\.copilot\\plans\\plan-recreate-wpf-view-layer-and-re-implement-interfaces.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|MarkdownSecurePreview"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{391452E7-AACB-23E0-8F92-AE59C012754F}|Diana.WPF.View\\Diana.WPF.View.csproj|c:\\development\\src\\diana\\diana.wpf.view\\views\\chatroomview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{391452E7-AACB-23E0-8F92-AE59C012754F}|Diana.WPF.View\\Diana.WPF.View.csproj|solutionrelative:diana.wpf.view\\views\\chatroomview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tareq\\AppData\\Local\\Temp\\.vsdbgsrc\\8646a45aed9b4ef7416dfd57c3236af05a7ffe9a232b7b6c9cfed2434fb72a85\\ResourcePart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{391452E7-AACB-23E0-8F92-AE59C012754F}|Diana.WPF.View\\Diana.WPF.View.csproj|c:\\development\\src\\diana\\diana.wpf.view\\views\\lobbyview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{391452E7-AACB-23E0-8F92-AE59C012754F}|Diana.WPF.View\\Diana.WPF.View.csproj|solutionrelative:diana.wpf.view\\views\\lobbyview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{391452E7-AACB-23E0-8F92-AE59C012754F}|Diana.WPF.View\\Diana.WPF.View.csproj|c:\\development\\src\\diana\\diana.wpf.view\\controls\\circularpicturebox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{391452E7-AACB-23E0-8F92-AE59C012754F}|Diana.WPF.View\\Diana.WPF.View.csproj|solutionrelative:diana.wpf.view\\controls\\circularpicturebox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{799475DE-ACA5-92AA-43FF-1CC5E9D689F3}|Diana.Server\\Diana.Server.csproj|c:\\development\\src\\diana\\diana.server\\chatserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{799475DE-ACA5-92AA-43FF-1CC5E9D689F3}|Diana.Server\\Diana.Server.csproj|solutionrelative:diana.server\\chatserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{799475DE-ACA5-92AA-43FF-1CC5E9D689F3}|Diana.Server\\Diana.Server.csproj|c:\\development\\src\\diana\\diana.server\\clienthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{799475DE-ACA5-92AA-43FF-1CC5E9D689F3}|Diana.Server\\Diana.Server.csproj|solutionrelative:diana.server\\clienthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{799475DE-ACA5-92AA-43FF-1CC5E9D689F3}|Diana.Server\\Diana.Server.csproj|c:\\development\\src\\diana\\diana.server\\chatroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{799475DE-ACA5-92AA-43FF-1CC5E9D689F3}|Diana.Server\\Diana.Server.csproj|solutionrelative:diana.server\\chatroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{391452E7-AACB-23E0-8F92-AE59C012754F}|Diana.WPF.View\\Diana.WPF.View.csproj|c:\\development\\src\\diana\\diana.wpf.view\\controls\\friendmessagecontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{391452E7-AACB-23E0-8F92-AE59C012754F}|Diana.WPF.View\\Diana.WPF.View.csproj|solutionrelative:diana.wpf.view\\controls\\friendmessagecontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{391452E7-AACB-23E0-8F92-AE59C012754F}|Diana.WPF.View\\Diana.WPF.View.csproj|c:\\development\\src\\diana\\diana.wpf.view\\controls\\circularpicturebox.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{391452E7-AACB-23E0-8F92-AE59C012754F}|Diana.WPF.View\\Diana.WPF.View.csproj|solutionrelative:diana.wpf.view\\controls\\circularpicturebox.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{391452E7-AACB-23E0-8F92-AE59C012754F}|Diana.WPF.View\\Diana.WPF.View.csproj|c:\\development\\src\\diana\\diana.wpf.view\\views\\chatroomview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{391452E7-AACB-23E0-8F92-AE59C012754F}|Diana.WPF.View\\Diana.WPF.View.csproj|solutionrelative:diana.wpf.view\\views\\chatroomview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{391452E7-AACB-23E0-8F92-AE59C012754F}|Diana.WPF.View\\Diana.WPF.View.csproj|c:\\development\\src\\diana\\diana.wpf.view\\views\\createroomview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{391452E7-AACB-23E0-8F92-AE59C012754F}|Diana.WPF.View\\Diana.WPF.View.csproj|solutionrelative:diana.wpf.view\\views\\createroomview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{391452E7-AACB-23E0-8F92-AE59C012754F}|Diana.WPF.View\\Diana.WPF.View.csproj|c:\\development\\src\\diana\\diana.wpf.view\\views\\createroomview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{391452E7-AACB-23E0-8F92-AE59C012754F}|Diana.WPF.View\\Diana.WPF.View.csproj|solutionrelative:diana.wpf.view\\views\\createroomview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{391452E7-AACB-23E0-8F92-AE59C012754F}|Diana.WPF.View\\Diana.WPF.View.csproj|c:\\development\\src\\diana\\diana.wpf.view\\views\\chatroomview.xaml.bak||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{391452E7-AACB-23E0-8F92-AE59C012754F}|Diana.WPF.View\\Diana.WPF.View.csproj|solutionrelative:diana.wpf.view\\views\\chatroomview.xaml.bak||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +88,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +101,251 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChatRoomView.xaml.bak",
+              "DocumentMoniker": "C:\\development\\src\\Diana\\Diana.WPF.View\\Views\\ChatRoomView.xaml.bak",
+              "RelativeDocumentMoniker": "Diana.WPF.View\\Views\\ChatRoomView.xaml.bak",
+              "ToolTip": "C:\\development\\src\\Diana\\Diana.WPF.View\\Views\\ChatRoomView.xaml.bak",
+              "RelativeToolTip": "Diana.WPF.View\\Views\\ChatRoomView.xaml.bak",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-05-11T18:33:26.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "plan-recreate-wpf-view-layer-and-re-implement-interfaces.md [Preview]",
+              "DocumentMoniker": "C:\\Users\\tareq\\.copilot\\plans\\plan-recreate-wpf-view-layer-and-re-implement-interfaces.md",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\tareq\\.copilot\\plans\\plan-recreate-wpf-view-layer-and-re-implement-interfaces.md",
+              "ToolTip": "C:\\Users\\tareq\\.copilot\\plans\\plan-recreate-wpf-view-layer-and-re-implement-interfaces.md [Preview]",
+              "RelativeToolTip": "..\\..\\..\\Users\\tareq\\.copilot\\plans\\plan-recreate-wpf-view-layer-and-re-implement-interfaces.md [Preview]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-05-11T18:20:54.84Z",
+              "EditorCaption": " [Preview]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FriendMessageControl.xaml.cs",
+              "DocumentMoniker": "C:\\development\\src\\Diana\\Diana.WPF.View\\Controls\\FriendMessageControl.xaml.cs",
+              "RelativeDocumentMoniker": "Diana.WPF.View\\Controls\\FriendMessageControl.xaml.cs",
+              "ToolTip": "C:\\development\\src\\Diana\\Diana.WPF.View\\Controls\\FriendMessageControl.xaml.cs",
+              "RelativeToolTip": "Diana.WPF.View\\Controls\\FriendMessageControl.xaml.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T22:05:18.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LobbyView.xaml",
+              "DocumentMoniker": "C:\\development\\src\\Diana\\Diana.WPF.View\\Views\\LobbyView.xaml",
+              "RelativeDocumentMoniker": "Diana.WPF.View\\Views\\LobbyView.xaml",
+              "ToolTip": "C:\\development\\src\\Diana\\Diana.WPF.View\\Views\\LobbyView.xaml",
+              "RelativeToolTip": "Diana.WPF.View\\Views\\LobbyView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-10T22:04:08.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\development\\src\\Diana\\Diana.WPF.View\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Diana.WPF.View\\App.xaml.cs",
+              "ToolTip": "C:\\development\\src\\Diana\\Diana.WPF.View\\App.xaml.cs",
+              "RelativeToolTip": "Diana.WPF.View\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T21:59:33.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ClientHandler.cs",
+              "DocumentMoniker": "C:\\development\\src\\Diana\\Diana.Server\\ClientHandler.cs",
+              "RelativeDocumentMoniker": "Diana.Server\\ClientHandler.cs",
+              "ToolTip": "C:\\development\\src\\Diana\\Diana.Server\\ClientHandler.cs",
+              "RelativeToolTip": "Diana.Server\\ClientHandler.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T22:15:56.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\development\\src\\Diana\\Diana.WPF.View\\App.xaml",
+              "RelativeDocumentMoniker": "Diana.WPF.View\\App.xaml",
+              "ToolTip": "C:\\development\\src\\Diana\\Diana.WPF.View\\App.xaml",
+              "RelativeToolTip": "Diana.WPF.View\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-11T18:09:05.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FriendMessageControl.xaml",
+              "DocumentMoniker": "C:\\development\\src\\Diana\\Diana.WPF.View\\Controls\\FriendMessageControl.xaml",
+              "RelativeDocumentMoniker": "Diana.WPF.View\\Controls\\FriendMessageControl.xaml",
+              "ToolTip": "C:\\development\\src\\Diana\\Diana.WPF.View\\Controls\\FriendMessageControl.xaml*",
+              "RelativeToolTip": "Diana.WPF.View\\Controls\\FriendMessageControl.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-10T22:05:14.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ChatServer.cs",
+              "DocumentMoniker": "C:\\development\\src\\Diana\\Diana.Server\\ChatServer.cs",
+              "RelativeDocumentMoniker": "Diana.Server\\ChatServer.cs",
+              "ToolTip": "C:\\development\\src\\Diana\\Diana.Server\\ChatServer.cs",
+              "RelativeToolTip": "Diana.Server\\ChatServer.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAqwCQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T22:16:13.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CircularPictureBox.xaml",
+              "DocumentMoniker": "C:\\development\\src\\Diana\\Diana.WPF.View\\Controls\\CircularPictureBox.xaml",
+              "RelativeDocumentMoniker": "Diana.WPF.View\\Controls\\CircularPictureBox.xaml",
+              "ToolTip": "C:\\development\\src\\Diana\\Diana.WPF.View\\Controls\\CircularPictureBox.xaml",
+              "RelativeToolTip": "Diana.WPF.View\\Controls\\CircularPictureBox.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-10T22:05:10.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ResourcePart.cs",
+              "DocumentMoniker": "C:\\Users\\tareq\\AppData\\Local\\Temp\\.vsdbgsrc\\8646a45aed9b4ef7416dfd57c3236af05a7ffe9a232b7b6c9cfed2434fb72a85\\ResourcePart.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\tareq\\AppData\\Local\\Temp\\.vsdbgsrc\\8646a45aed9b4ef7416dfd57c3236af05a7ffe9a232b7b6c9cfed2434fb72a85\\ResourcePart.cs",
+              "ToolTip": "C:\\Users\\tareq\\AppData\\Local\\Temp\\.vsdbgsrc\\8646a45aed9b4ef7416dfd57c3236af05a7ffe9a232b7b6c9cfed2434fb72a85\\ResourcePart.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\Users\\tareq\\AppData\\Local\\Temp\\.vsdbgsrc\\8646a45aed9b4ef7416dfd57c3236af05a7ffe9a232b7b6c9cfed2434fb72a85\\ResourcePart.cs [Read Only]",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAYwCcAAAAEAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T18:09:35.463Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\development\\src\\Diana\\Diana.WPF.View\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Diana.WPF.View\\AssemblyInfo.cs",
+              "ToolTip": "C:\\development\\src\\Diana\\Diana.WPF.View\\AssemblyInfo.cs",
+              "RelativeToolTip": "Diana.WPF.View\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T21:59:54.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ChatRoom.cs",
+              "DocumentMoniker": "C:\\development\\src\\Diana\\Diana.Server\\ChatRoom.cs",
+              "RelativeDocumentMoniker": "Diana.Server\\ChatRoom.cs",
+              "ToolTip": "C:\\development\\src\\Diana\\Diana.Server\\ChatRoom.cs",
+              "RelativeToolTip": "Diana.Server\\ChatRoom.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T22:15:10.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ChatRoomView.xaml.bak",
+              "DocumentMoniker": "C:\\development\\src\\Diana\\Diana.WPF.View\\Views\\ChatRoomView.xaml.bak",
+              "RelativeDocumentMoniker": "Diana.WPF.View\\Views\\ChatRoomView.xaml.bak",
+              "ToolTip": "C:\\development\\src\\Diana\\Diana.WPF.View\\Views\\ChatRoomView.xaml.bak",
+              "RelativeToolTip": "Diana.WPF.View\\Views\\ChatRoomView.xaml.bak",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-05-11T18:23:31.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LobbyView.xaml.cs",
+              "DocumentMoniker": "C:\\development\\src\\Diana\\Diana.WPF.View\\Views\\LobbyView.xaml.cs",
+              "RelativeDocumentMoniker": "Diana.WPF.View\\Views\\LobbyView.xaml.cs",
+              "ToolTip": "C:\\development\\src\\Diana\\Diana.WPF.View\\Views\\LobbyView.xaml.cs",
+              "RelativeToolTip": "Diana.WPF.View\\Views\\LobbyView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T22:00:57.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ChatRoomView.xaml.cs",
+              "DocumentMoniker": "C:\\development\\src\\Diana\\Diana.WPF.View\\Views\\ChatRoomView.xaml.cs",
+              "RelativeDocumentMoniker": "Diana.WPF.View\\Views\\ChatRoomView.xaml.cs",
+              "ToolTip": "C:\\development\\src\\Diana\\Diana.WPF.View\\Views\\ChatRoomView.xaml.cs",
+              "RelativeToolTip": "Diana.WPF.View\\Views\\ChatRoomView.xaml.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAqwGwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T22:00:52.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CircularPictureBox.xaml.cs",
+              "DocumentMoniker": "C:\\development\\src\\Diana\\Diana.WPF.View\\Controls\\CircularPictureBox.xaml.cs",
+              "RelativeDocumentMoniker": "Diana.WPF.View\\Controls\\CircularPictureBox.xaml.cs",
+              "ToolTip": "C:\\development\\src\\Diana\\Diana.WPF.View\\Controls\\CircularPictureBox.xaml.cs",
+              "RelativeToolTip": "Diana.WPF.View\\Controls\\CircularPictureBox.xaml.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T22:06:45.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ChatRoomView.xaml",
+              "DocumentMoniker": "C:\\development\\src\\Diana\\Diana.WPF.View\\Views\\ChatRoomView.xaml",
+              "RelativeDocumentMoniker": "Diana.WPF.View\\Views\\ChatRoomView.xaml",
+              "ToolTip": "C:\\development\\src\\Diana\\Diana.WPF.View\\Views\\ChatRoomView.xaml",
+              "RelativeToolTip": "Diana.WPF.View\\Views\\ChatRoomView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-10T22:05:00.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CreateRoomView.xaml.cs",
+              "DocumentMoniker": "C:\\development\\src\\Diana\\Diana.WPF.View\\Views\\CreateRoomView.xaml.cs",
+              "RelativeDocumentMoniker": "Diana.WPF.View\\Views\\CreateRoomView.xaml.cs",
+              "ToolTip": "C:\\development\\src\\Diana\\Diana.WPF.View\\Views\\CreateRoomView.xaml.cs",
+              "RelativeToolTip": "Diana.WPF.View\\Views\\CreateRoomView.xaml.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAACcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T21:57:10.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CreateRoomView.xaml",
+              "DocumentMoniker": "C:\\development\\src\\Diana\\Diana.WPF.View\\Views\\CreateRoomView.xaml",
+              "RelativeDocumentMoniker": "Diana.WPF.View\\Views\\CreateRoomView.xaml",
+              "ToolTip": "C:\\development\\src\\Diana\\Diana.WPF.View\\Views\\CreateRoomView.xaml",
+              "RelativeToolTip": "Diana.WPF.View\\Views\\CreateRoomView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-10T21:57:08.257Z"
             }
           ]
         }

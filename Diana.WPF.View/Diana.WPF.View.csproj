@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Diana.Application\Diana.Application.csproj" />
+    <ProjectReference Include="..\Diana.Core\Diana.Core.csproj" />
+    <ProjectReference Include="..\Diana.Presenter\Diana.Presenter.csproj" />
+  </ItemGroup>
+
+</Project>

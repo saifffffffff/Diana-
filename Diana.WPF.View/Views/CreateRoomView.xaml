@@ -1,0 +1,248 @@
+<Window x:Class="Diana.WPF.View.Views.CreateRoomView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Create Room" Height="420" Width="500"
+        WindowStartupLocation="CenterOwner"
+        Background="#0D1117"
+        ResizeMode="NoResize"
+        Closed="Window_Closed"
+        FontFamily="Segoe UI">
+
+    <Window.Resources>
+        <Style x:Key="FormInputBorder" TargetType="Border">
+            <Setter Property="Background" Value="#1C2333"/>
+            <Setter Property="BorderBrush" Value="#2D3748"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="CornerRadius" Value="8"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="BorderBrush" Value="#3F4555"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+
+    <Grid Background="#0D1117">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70"/>   <!-- Header -->
+            <RowDefinition Height="*"/>    <!-- Form -->
+            <RowDefinition Height="Auto"/> <!-- Buttons -->
+        </Grid.RowDefinitions>
+
+        <!-- ═══════════════ HEADER ═══════════════ -->
+        <Border Grid.Row="0" Background="#161B22"
+                BorderBrush="#2D3748" BorderThickness="0,0,0,1"
+                Padding="28,0">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="0">
+                <TextBlock Text="+" FontSize="24" Foreground="#6366F1"
+                           HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"
+                           Margin="0,0,12,0"/>
+                <StackPanel VerticalAlignment="Center">
+                    <TextBlock Text="Create New Room" Foreground="#E2E8F0"
+                               FontSize="16" FontWeight="SemiBold"/>
+                    <TextBlock Text="Set up your chat room with a name and key" Foreground="#4A5568"
+                               FontSize="12" Margin="0,2,0,0"/>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+
+        <!-- ═══════════════ FORM BODY ═══════════════ -->
+        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+            <StackPanel Margin="28,24,28,20">
+
+                <!-- Room Name Section -->
+                <StackPanel Margin="0,0,0,18">
+
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,8">
+                        <TextBlock Text="🏠"
+                       FontSize="14"
+                       VerticalAlignment="Center"
+                       Margin="0,0,6,0"
+                       Foreground="#E2E8F0"/>
+
+                        <TextBlock Text="Room Name"
+                       Foreground="#E2E8F0"
+                       FontSize="12"
+                       FontWeight="SemiBold"
+                       VerticalAlignment="Center"/>
+                    </StackPanel>
+
+                    <Border Style="{StaticResource FormInputBorder}">
+
+                        <Grid>
+
+                            <!-- Placeholder -->
+                            <TextBlock Text="e.g., Team Discussion"
+                           Foreground="#4A5568"
+                           Margin="12,0,0,0"
+                           VerticalAlignment="Center"
+                           FontSize="12"
+                           IsHitTestVisible="False">
+
+                                <TextBlock.Style>
+                                    <Style TargetType="TextBlock">
+
+                                        <Setter Property="Visibility"
+                                    Value="Collapsed"/>
+
+                                        <Style.Triggers>
+
+                                            <DataTrigger Binding="{Binding Text, ElementName=RoomNameBox}"
+                                             Value="">
+                                                <Setter Property="Visibility"
+                                            Value="Visible"/>
+                                            </DataTrigger>
+
+                                        </Style.Triggers>
+
+                                    </Style>
+                                </TextBlock.Style>
+
+                            </TextBlock>
+
+                            <!-- TextBox -->
+                            <TextBox x:Name="RoomNameBox"
+                         Background="Transparent"
+                         Foreground="#E2E8F0"
+                         BorderThickness="0"
+                         Padding="12,10"
+                         Height="44"
+                         FontSize="13"
+                         VerticalContentAlignment="Center"
+                         CaretBrush="#E2E8F0"/>
+
+                        </Grid>
+
+                    </Border>
+
+                </StackPanel>
+
+
+                <!-- Room Key Section -->
+                <StackPanel Margin="0,0,0,18">
+
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,8">
+
+                        <TextBlock Text="🔒"
+                       FontSize="14"
+                       VerticalAlignment="Center"
+                       Margin="0,0,6,0"/>
+
+                        <TextBlock Text="Room Key"
+                       Foreground="#E2E8F0"
+                       FontSize="12"
+                       FontWeight="SemiBold"
+                       VerticalAlignment="Center"/>
+
+                    </StackPanel>
+
+                    <Border Style="{StaticResource FormInputBorder}">
+
+                        <Grid>
+
+                            <!-- Placeholder -->
+                            <TextBlock Text="e.g., secret123"
+                           Foreground="#4A5568"
+                           Margin="12,0,0,0"
+                           VerticalAlignment="Center"
+                           FontSize="12"
+                           IsHitTestVisible="False">
+
+                                <TextBlock.Style>
+                                    <Style TargetType="TextBlock">
+
+                                        <Setter Property="Visibility"
+                                    Value="Collapsed"/>
+
+                                        <Style.Triggers>
+
+                                            <DataTrigger Binding="{Binding Text, ElementName=RoomKeyBox}"
+                                             Value="">
+                                                <Setter Property="Visibility"
+                                            Value="Visible"/>
+                                            </DataTrigger>
+
+                                        </Style.Triggers>
+
+                                    </Style>
+                                </TextBlock.Style>
+
+                            </TextBlock>
+
+                            <!-- TextBox -->
+                            <TextBox x:Name="RoomKeyBox"
+                         Background="Transparent"
+                         Foreground="#E2E8F0"
+                         BorderThickness="0"
+                         Padding="12,10"
+                         Height="44"
+                         FontSize="13"
+                         VerticalContentAlignment="Center"
+                         CaretBrush="#E2E8F0"/>
+
+                        </Grid>
+
+                    </Border>
+
+                </StackPanel>
+
+            </StackPanel>
+        </ScrollViewer>
+
+        <!-- ═══════════════ ACTION BUTTONS ═══════════════ -->
+        <Border Grid.Row="2" Background="#161B22"
+                BorderBrush="#2D3748" BorderThickness="0,1,0,0"
+                Padding="28,16">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="12"/>
+                    <ColumnDefinition Width="180"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- Cancel Button -->
+                <Button Grid.Column="0" Height="44"
+                        Background="Transparent"
+                        BorderBrush="#2D3748"
+                        BorderThickness="1"
+                        Foreground="#8892A4"
+                        FontSize="13"
+                        FontWeight="SemiBold"
+                        Cursor="Hand"
+                        Click="CancelButton_Click">
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Border Background="{TemplateBinding Background}"
+                                    BorderBrush="{TemplateBinding BorderBrush}"
+                                    BorderThickness="{TemplateBinding BorderThickness}"
+                                    CornerRadius="8"
+                                    Padding="12">
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Border>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="#1C2333"/>
+                                    <Setter Property="BorderBrush" Value="#3F4555"/>
+                                </Trigger>
+                                <Trigger Property="IsPressed" Value="True">
+                                    <Setter Property="Background" Value="#0F172A"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Button.Template>
+                    Cancel
+                </Button>
+
+                <!-- Create Button -->
+                <Button x:Name="CreateButton" Grid.Column="2" Height="44"
+                        Style="{StaticResource PrimaryButton}" Click="CreateButton_Click"
+                        Cursor="Hand">
+                    <StackPanel Orientation="Horizontal" Margin="0">
+                        <TextBlock Text="+" FontSize="16" VerticalAlignment="Center" Margin="0,0,6,0"/>
+                        <TextBlock Text="Create Room" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </Button>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

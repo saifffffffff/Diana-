@@ -1,1 +1,7 @@
-<Solution />
+<Solution>
+  <Project Path="Diana.Application/Diana.Application.csproj" />
+  <Project Path="Diana.Core/Diana.Core.csproj" />
+  <Project Path="Diana.Presenter/Diana.Presenter.csproj" />
+  <Project Path="Diana.Server/Diana.Server.csproj" />
+  <Project Path="Diana.WPF.View/Diana.WPF.View.csproj" />
+</Solution>
